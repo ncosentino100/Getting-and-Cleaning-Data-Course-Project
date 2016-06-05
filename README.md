@@ -11,12 +11,12 @@ The zipped file, found [here,] (http://archive.ics.uci.edu/ml/machine-learning-d
 
 ### Project Specifics
 
-Per project instructions, course participants were to create an R script titled ("run_analysis.R") [ADD LINK] that should:
-  1. Merge the training and test sets to create one data set
-  2. Extract only the measurements on the mean ("mean( )") and standard deviation ("std( )") for each measurement taken
-  3. Assign descriptive activity names to name the activities in the data set
-  4. Appropriately label the data set with descriptive variable names
-  5. Create a second, (tidy data set) [ADD LINK] with the average of each variable for each activity and each subject from the the data set created in steps 1-4
+Per project instructions, course participants were to create an R script titled ["run_analysis.R"](https://github.com/ncosentino100/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) that should:
+  1. Merge the training and test sets to create one data set;
+  2. Extract only the measurements on the mean ("mean( )") and standard deviation ("std( )") for each measurement taken;
+  3. Assign descriptive activity names to name the activities in the data set;
+  4. Appropriately label the data set with descriptive variable names;
+  5. Create a second, [tidy data set](https://github.com/ncosentino100/Getting-and-Cleaning-Data-Course-Project/blob/master/variableaverages.txt) with the average of each variable for each activity and each subject from the the data set created in steps 1-4.
 
 ### Data, Variables and Transformations
 
