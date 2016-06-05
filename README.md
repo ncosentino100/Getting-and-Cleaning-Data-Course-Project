@@ -11,7 +11,7 @@ The zipped file, found [here,] (http://archive.ics.uci.edu/ml/machine-learning-d
 
 ### Project Specifics
 
-Per project instructions, course participants were to create an R script titled ["run_analysis.R"](https://github.com/ncosentino100/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) that should:
+Per project instructions, course participants were to create an R script titled ["run_analysis.R"](https://github.com/ncosentino100/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R) that will:
   1. Merge the training and test sets to create one data set;
   2. Extract only the measurements on the mean ("mean( )") and standard deviation ("std( )") for each measurement taken;
   3. Assign descriptive activity names to name the activities in the data set;
