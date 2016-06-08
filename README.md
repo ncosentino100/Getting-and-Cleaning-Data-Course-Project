@@ -20,5 +20,5 @@ Per project instructions, course participants were to create an R script titled 
 
 ### Data, Variables and Transformations
 
-Further explanations of the data used in this project, the varibles found therein, and the transformations done to the data through run_analysis.R are included in the (CodeBook.MD file.) [ADD LINK]
+Further explanations of the data used in this project, the varibles found therein, and the transformations done to the data through run_analysis.R are included in the [CodeBook.MD file.](https://github.com/ncosentino100/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md)
 
