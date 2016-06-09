@@ -7,7 +7,7 @@ This document details the data collected and the variables observed in the cours
 
 ### Source Data and Variables
 
-As indicated in the 'features_info.txt' file, a full list of the identifiers and measurements is found in the 'features.txt' file. For brevity (and for comparison to the "Transformed Data and Variables"), only those identifiers and measurements that are featured within the two tidy data sets created by 'run_analysis.R' are listed in their original forms here.
+As indicated in the 'features_info.txt' file, a full list of the identifiers and measurements is found in the 'features.txt' file. For brevity (and for comparison to the "Transformed Data and Variables"), only those identifiers and measurements that are featured within the two tidy data sets created by 'run_analysis.R' are listed in their original forms below.
 
 ##### Identifiers
   1.  V1
@@ -84,10 +84,22 @@ As indicated in the 'features_info.txt' file, a full list of the identifiers and
 
 ### Basics of 'run_analysis.R'*
 
+'run_analysis.R' has nine steps:
+  1. It loads the data.table package
+  2. It sets the working directory to the UCI HAR Dataset
+  3. It reads the needed txt files into tables
+  4. It combines the loaded files into one combined data set
+  5. It assigns feature neames to the corresponding values in the combined data set
+  6. It filters the data down to only the columns containing the mean and standard deviation
+  7. It relabels the data set's variable's with descriptive names
+  8. It creates a second, independent tidy data set including the average of each variable for each activity and subject and writes that data set to a .txt file
+
 *Notice: run_analysis.R was created, and all data transformations were performed, on a 64-bit MacBook Pro running OS X 10.11.5 and R version 3.2.4. The data.table package utilized within the script is version 1.9.6
 
 
 ### Transformed Data and Variables
+
+The 'run_analysis.R' transformed identifiers and measurements are as follows:
 
 ##### Identifiers
   1. [1] "activity"                                                   
