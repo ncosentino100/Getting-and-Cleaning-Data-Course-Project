@@ -68,8 +68,7 @@ filteredData <- filteredData[c(1, 68, 2:67)]
 tidyData <- aggregate(filteredData, by = list(activity = filteredData$activity,
                                         subject = filteredData$subject), mean)
 tidyData <- tidyData[c(1, 2, 5:70)]
-write.table(tidyData, "variableaverages.txt", sep = "\t", row.names = TRUE, 
-            col.names = TRUE)
+write.table(tidyData, "variableaverages.txt", sep = "\t", row.names = FALSE)
 
 
 
